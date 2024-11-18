@@ -11,14 +11,14 @@ This project converts scanned or flattened PDFs into searchable PDFs using Pytho
 
 ## Project Structure
 
-project-directory/ ├── app.py # Main Python script for OCR processing ├── otr1.pdf # Example input PDF file (scanned/flattened) ├── out_text.pdf # Output PDF with searchable text └── README.md # Project documentation
+OCR-PDF-Converter/ ├── .venv/ # (Optional) Virtual environment directory ├── app.py # Main Python script for OCR processing ├── otr1.pdf # Input PDF file (example scanned/flattened PDF) ├── out_text.pdf # Output PDF with searchable text ├── README.md # Project documentation └── requirements.txt # List of required Python packages
 
 
 ## Requirements
 
 Ensure the following are installed:
 
-- **Python 3.x**
+- **Python 3.12**
 - **Tesseract OCR Engine**: [Download Tesseract](https://github.com/tesseract-ocr/tesseract) and ensure it’s added to your system PATH.
 - **Poppler**: Required by `pdf2image` for PDF-to-image conversion. [Download Poppler for Windows](https://blog.alivate.com.au/poppler-windows/), and add it to PATH.
 
