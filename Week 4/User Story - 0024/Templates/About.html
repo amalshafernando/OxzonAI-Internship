@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - WildDish</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">WildDish</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <a class="nav-link" href="{{ url_for('/home') }}">Home</a>
+                    <a class="nav-link" href="{{ url_for('/about') }}">About</a>
+                    <a class="nav-link" href="{{ url_for('/contact') }}">Contact</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Content -->
+    <div class="container my-5">
+        <h1 class="text-center">About WildDish</h1>
+        <p class="lead">
+            At WildDish, we believe in serving meals that not only satisfy your taste buds but also resonate with your emotions. 
+            Every dish is prepared with love, using the finest ingredients to ensure that you experience the true essence of flavors.
+        </p>
+        <p>
+            Whether you’re looking for a hearty breakfast, a delightful lunch, or a luxurious dinner, WildDish is here to make every 
+            mealtime memorable. Our chefs specialize in crafting unique dishes tailored to your sentiments, blending traditional recipes 
+            with modern twists.
+        </p>
+        <img src="https://via.placeholder.com/1200x400" alt="About WildDish" class="img-fluid mt-3">
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</html>
